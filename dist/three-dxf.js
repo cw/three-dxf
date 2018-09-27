@@ -179,7 +179,7 @@ var ThreeDxf;
         controls.zoomSpeed = 3;
 
         // Uncommend this to disable rotation (does not make much sense with 2D drawings).
-        //controls.enableRotate = false;
+        controls.enableRotate = false;
 
         this.render = function() { renderer.render(scene, camera) };
         controls.addEventListener('change', this.render);
